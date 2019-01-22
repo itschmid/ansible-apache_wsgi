@@ -1,7 +1,7 @@
 galaxy_info:
   author: Manfred Schmid 
   description: install apache2.4 with mod_wsgi
-
+  role_name: apache_wsgi
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
   # issue_tracker_url: http://example.com/issue/tracker
