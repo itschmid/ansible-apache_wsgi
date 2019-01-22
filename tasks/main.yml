@@ -1,0 +1,18 @@
+---
+- name: install apache and mod_wsgi
+  package: name=apache2-mod_wsgi state=installed
+  notify:
+    - start_apache2
+
+- name: enable apache2 modules
+  apache2_module:
+    state: present
+    name: wsgi
+  notify:
+    - restart_apache2
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+---
+apache2_service: apache2
+
+apache2_modules:
+  - wsgi
+  - ldap
